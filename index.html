@@ -34,19 +34,24 @@
 
     
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-warning">
-      <div class="container">
-
+    <nav class="navbar navbar-expand-md navbar-light bg-warning"> <!-- Inicio Navbar -->
+      <div class="container"> <!-- Inicio Container -->
+        
           <!-- Logo -->
-          <a href="" class="navbar-brand text-hide col-3">
-            <img src="img/logo.png">Finans
+          <a href="" class="navbar-brand text-hide">
+            <img class="w-50" src="img/logo.png">Finans
           </a>
 
+          <!-- Menu Hamburguer -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
           <!-- Navegação -->
-          <div class="col-sm-5">
+          <div class="collapse navbar-collapse justify-content-end" id="nav-target">
             <ul class="navbar-nav"> <!-- Navegação -->
               <li class="nav-item">
-                <a href="" class="nav-link">Home</a>
+                  <a href="" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link">Recursos</a>
@@ -62,12 +67,10 @@
                 Entrar
               </button>
             </ul>
-
-
-
           </div>
-      </div>
-    </nav>
+
+      </div> <!-- Fim Container -->
+    </nav> <!-- Fim Navbar -->
 
 
       <div class="row"> <!-- Início Conteúdo Principal -->
